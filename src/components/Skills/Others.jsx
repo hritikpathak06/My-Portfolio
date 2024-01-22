@@ -6,7 +6,6 @@ const Others = () => {
     <>
       <div className="skills__content">
         <h3 className="skills__title">Other</h3>
-
         <div className="skills__box">
           <div className="skills__group">
             <div className="skills__data">
@@ -16,10 +15,8 @@ const Others = () => {
                 <span className="skills__level">Intermediate</span>
               </div>
             </div>
-
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
-
               <div>
                 <h3 className="skills__name">DSA</h3>
                 <span className="skills__level">Intermediate</span>
@@ -27,21 +24,17 @@ const Others = () => {
             </div>
           </div>
         </div>
-
         <div className="skills__box">
           <div className="skills__group">
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
-
               <div>
                 <h3 className="skills__name">Git Hub</h3>
                 <span className="skills__level">Intermediate</span>
               </div>
             </div>
-
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
-
               <div>
                 <h3 className="skills__name">Version Control</h3>
                 <span className="skills__level">Intermediate</span>
