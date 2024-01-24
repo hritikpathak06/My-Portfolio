@@ -34,7 +34,7 @@ const Projects = () => {
               }
               onClick={() => toggleTab(1)}
             >
-              Full Stack Projects
+              Major Projects
             </h3>
             <h3
               className={
