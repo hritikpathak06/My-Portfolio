@@ -109,5 +109,6 @@
 @media screen and (max-width: 450px) {
   .qualification__data {
     gap: 0.5rem;
+    margin-left: 1.5rem;
   }
 }
