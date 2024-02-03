@@ -11,6 +11,7 @@ import Multiplication from "../../assets/multiplication.png";
 import TODO from "../../assets/todo.png";
 import QUIZ from "../../assets/qyuiz.png";
 import CLOCK from "../../assets/clock.png";
+import LEARNHUB from "../../assets/learnhub.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -124,6 +125,13 @@ const Projects = () => {
 export default Projects;
 
 const fullStackProjectsData = [
+  {
+    name: "Learn Hub",
+    type: "Full Stack Project",
+    image: LEARNHUB,
+    link1: "https://learnhub-tau.vercel.app",
+    link2: "https://github.com/hritikpathak06/Learn_Hub--Frontend",
+  },
   {
     name: "Socio Media",
     type: "Full Stack Project",
