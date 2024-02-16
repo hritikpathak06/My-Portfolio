@@ -12,6 +12,7 @@ import TODO from "../../assets/todo.png";
 import QUIZ from "../../assets/qyuiz.png";
 import CLOCK from "../../assets/clock.png";
 import LEARNHUB from "../../assets/learnhub.png"
+import CODEOPEN from "../../assets/codeeditor.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -152,6 +153,13 @@ const fullStackProjectsData = [
     image: Netflix,
     link1: "https://netflix-clone-sandy-beta.vercel.app/",
     link2: "https://github.com/hritikpathak06/Netflix-Clone",
+  },
+  {
+    name: "CodeOpen",
+    type: "Frontend+ Shadcn UI",
+    image: CODEOPEN,
+    link1: "https://code-open.vercel.app/",
+    link2: "https://github.com/hritikpathak06/CodeOpen",
   },
   {
     name: "Portfolio Website",
