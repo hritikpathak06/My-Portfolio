@@ -169,12 +169,6 @@ img {
   align-items: center;
 }
 
-/* .main{
-  height: 100vh;
-  width: 100%;
-  background-color:black;
-} */
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

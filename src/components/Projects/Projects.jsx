@@ -11,8 +11,9 @@ import Multiplication from "../../assets/multiplication.png";
 import TODO from "../../assets/todo.png";
 import QUIZ from "../../assets/qyuiz.png";
 import CLOCK from "../../assets/clock.png";
-import LEARNHUB from "../../assets/learnhub.png"
-import CODEOPEN from "../../assets/codeeditor.png"
+import LEARNHUB from "../../assets/learnhub.png";
+import CODEOPEN from "../../assets/codeeditor.png";
+import CHATTER from "../../assets/chatter.png";
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -134,18 +135,26 @@ const fullStackProjectsData = [
     link2: "https://github.com/hritikpathak06/Learn_Hub--Frontend",
   },
   {
-    name: "Socio Media",
+    name: "Chat App",
     type: "Full Stack Project",
-    image: SocialMedia,
-    link1: "https://socio-media-delta.vercel.app/",
-    link2: "https://github.com/hritikpathak06/Social-Media-Frontend",
+    image: CHATTER,
+    link1: "https://chatter-up-xa94.onrender.com/",
+    link2: "https://github.com/hritikpathak06/ChatterUp",
   },
+
   {
     name: "Eccomerce Website",
     type: "Full Stack Project",
     image: Eccomerce,
     link1: "https://shopwithritik.vercel.app/",
     link2: "https://github.com/hritikpathak06/Frontend--Eccomerce",
+  },
+  {
+    name: "Socio Media",
+    type: "Full Stack Project",
+    image: SocialMedia,
+    link1: "https://socio-media-delta.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Social-Media-Frontend",
   },
   {
     name: "Netflix Clone",
@@ -161,6 +170,9 @@ const fullStackProjectsData = [
     link1: "https://code-open.vercel.app/",
     link2: "https://github.com/hritikpathak06/CodeOpen",
   },
+];
+
+const miniProjectsData = [
   {
     name: "Portfolio Website",
     type: "Frontend",
@@ -168,9 +180,6 @@ const fullStackProjectsData = [
     link1: "https://my-portfolio-gold-one.vercel.app/",
     link2: "https://github.com/hritikpathak06/My-Portfolio",
   },
-];
-
-const miniProjectsData = [
   {
     name: "Burger Mania",
     type: "Frontend Animated",
