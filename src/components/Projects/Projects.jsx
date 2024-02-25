@@ -14,6 +14,8 @@ import CLOCK from "../../assets/clock.png";
 import LEARNHUB from "../../assets/learnhub.png";
 import CODEOPEN from "../../assets/codeeditor.png";
 import CHATTER from "../../assets/chatter.png";
+import SYNCIFY from "../../assets/syncify.png"
+import LANDING from "../../assets/landing.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -135,11 +137,11 @@ const fullStackProjectsData = [
     link2: "https://github.com/hritikpathak06/Learn_Hub--Frontend",
   },
   {
-    name: "Chat App",
-    type: "Full Stack Project",
-    image: CHATTER,
-    link1: "https://chatter-up-xa94.onrender.com/",
-    link2: "https://github.com/hritikpathak06/ChatterUp",
+    name: "Syncify",
+    type: "AI Sass Platform",
+    image: SYNCIFY,
+    link1: "https://syncify-self.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Syncify",
   },
 
   {
@@ -148,6 +150,13 @@ const fullStackProjectsData = [
     image: Eccomerce,
     link1: "https://shopwithritik.vercel.app/",
     link2: "https://github.com/hritikpathak06/Frontend--Eccomerce",
+  },
+  {
+    name: "Chat App",
+    type: "Full Stack Project",
+    image: CHATTER,
+    link1: "https://chatter-up-xa94.onrender.com/",
+    link2: "https://github.com/hritikpathak06/ChatterUp",
   },
   {
     name: "Socio Media",
@@ -200,6 +209,13 @@ const miniProjectsData = [
     image: Weather,
     link1: "https://weather-app-two-silk-80.vercel.app/",
     link2: "https://github.com/hritikpathak06/Weather-App",
+  },
+  {
+    name: "Landing Page",
+    type: "Frontend Project",
+    image: LANDING,
+    link1: "https://landing-page-seven-lake-28.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Landing-Page",
   },
   {
     name: "LIINKS",
