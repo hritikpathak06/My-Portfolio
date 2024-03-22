@@ -16,6 +16,7 @@ import CODEOPEN from "../../assets/codeeditor.png";
 import CHATTER from "../../assets/chatter.png";
 import SYNCIFY from "../../assets/syncify.png"
 import LANDING from "../../assets/landing.png"
+import WONDERSTAY from "../../assets/wonder.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -135,6 +136,13 @@ const fullStackProjectsData = [
     image: LEARNHUB,
     link1: "https://learnhub-tau.vercel.app",
     link2: "https://github.com/hritikpathak06/Learn_Hub--Frontend",
+  },
+  {
+    name: "Wonder Stay",
+    type: "Full Stack Project",
+    image: WONDERSTAY,
+    link1: "https://wonderstay.vercel.app/",
+    link2: "https://github.com/hritikpathak06/WonderStay---Frontend",
   },
   {
     name: "Syncify",
