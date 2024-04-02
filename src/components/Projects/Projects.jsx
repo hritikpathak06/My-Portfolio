@@ -17,6 +17,7 @@ import CHATTER from "../../assets/chatter.png";
 import SYNCIFY from "../../assets/syncify.png"
 import LANDING from "../../assets/landing.png"
 import WONDERSTAY from "../../assets/wonder.png"
+import CHATMINGLE from "../../assets/chatmingle.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -136,6 +137,13 @@ const fullStackProjectsData = [
     image: LEARNHUB,
     link1: "https://learnhub-tau.vercel.app",
     link2: "https://github.com/hritikpathak06/Learn_Hub--Frontend",
+  },
+  {
+    name: "Chat Mingle",
+    type: "Full Stack Project",
+    image: CHATMINGLE,
+    link1: "https://chatmingle-7t03.onrender.com/",
+    link2: "https://github.com/hritikpathak06/ChatMingle",
   },
   {
     name: "Wonder Stay",
