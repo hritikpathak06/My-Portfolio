@@ -18,6 +18,7 @@ import SYNCIFY from "../../assets/syncify.png"
 import LANDING from "../../assets/landing.png"
 import WONDERSTAY from "../../assets/wonder.png"
 import CHATMINGLE from "../../assets/chatmingle.png"
+import CABLINK from "../../assets/cablink.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -168,12 +169,13 @@ const fullStackProjectsData = [
     link2: "https://github.com/hritikpathak06/Frontend--Eccomerce",
   },
   {
-    name: "Chat App",
+    name: "CabLink",
     type: "Full Stack Project",
-    image: CHATTER,
-    link1: "https://chatter-up-xa94.onrender.com/",
-    link2: "https://github.com/hritikpathak06/ChatterUp",
+    image: CABLINK,
+    link1: "https://cablink.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Cablink",
   },
+
   {
     name: "Socio Media",
     type: "Full Stack Project",
@@ -187,6 +189,13 @@ const fullStackProjectsData = [
     image: Netflix,
     link1: "https://netflix-clone-sandy-beta.vercel.app/",
     link2: "https://github.com/hritikpathak06/Netflix-Clone",
+  },
+  {
+    name: "Chat App",
+    type: "Full Stack Project",
+    image: CHATTER,
+    link1: "https://chatter-up-xa94.onrender.com/",
+    link2: "https://github.com/hritikpathak06/ChatterUp",
   },
   {
     name: "CodeOpen",
