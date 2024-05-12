@@ -1,95 +1,95 @@
 import React from "react";
 import "./skills.css";
 
+let width = 30;
+
 const Frontend = () => {
   return (
     <>
-      <div className="skills__content">
-        <h3 className="skills__title">Frontend</h3>
-
-        <div className="skills__box">
-          <div className="skills__group">
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-
-              <div>
-                <h3 className="skills__name">React</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
+      <div className="frontend">
+        <h1>FRONTEND</h1>
+        <hr />
+        {frontendSkills.map((skill, index) => (
+          <div className=" frontend__skills">
+            <h4 style={{ width: "20%" }}>{skill.skillName}</h4>
+            <div className="percentage">
+              <div
+                style={{
+                  width: `${skill.percentage}%`,
+                  background: getColor(skill.percentage),
+                }}
+              ></div>
             </div>
-
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">Javascript</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
+            <h4>{skill.percentage}%</h4>
           </div>
-        </div>
-
-        
-        <div className="skills__box">
-          <div className="skills__group">
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-
-              <div>
-                <h3 className="skills__name">Next.js</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">MUI</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills__box">
-          <div className="skills__group">
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">HTML5...</h3>
-                <span className="skills__level">Advanced</span>
-              </div>
-            </div>
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">CSS3</h3>
-                <span className="skills__level">Advanced</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills__box">
-          <div className="skills__group">
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">Tailwind</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-            <div className="skills__data">
-              <i class="bx bx-badge-check"></i>
-              <div>
-                <h3 className="skills__name">Bootstrap</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </>
   );
 };
 
 export default Frontend;
+
+// Function to determine color based on percentage
+const getColor = (percentage) => {
+  if (percentage <= 20) {
+    return "red";
+  } else if (percentage > 20 && percentage <= 50) {
+    return "yellow";
+  } else if (percentage > 50 && percentage <= 70) {
+    return "yellow";
+  } else {
+    return "green";
+  }
+};
+
+export const frontendSkills = [
+  {
+    skillName: "React.js",
+    percentage: 90,
+  },
+  {
+    skillName: "Next.js",
+    percentage: 70,
+  },
+  {
+    skillName: "JavaScript",
+    percentage: 80,
+  },
+  {
+    skillName: "TypeScript",
+    percentage: 70,
+  },
+  {
+    skillName: "Redux",
+    percentage: 60,
+  },
+  {
+    skillName: "Redux Toolkit",
+    percentage: 70,
+  },
+  {
+    skillName: "Tailwind",
+    percentage: 70,
+  },
+  {
+    skillName: "MUI",
+    percentage: 60,
+  },
+  {
+    skillName: "SCSS",
+    percentage: 80,
+  },
+  {
+    skillName: "Chakra-UI",
+    percentage: 70,
+  },
+  {
+    skillName: "HTML",
+    percentage: 90,
+  },
+  {
+    skillName: "CSS",
+    percentage: 80,
+  },
+];

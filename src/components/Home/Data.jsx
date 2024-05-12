@@ -57,7 +57,7 @@ const Data = () => {
             ></path>
           </svg>
         </h1>
-        <h3 className="home__subtitle">Full Stack Developer || UI Designer</h3>
+        <h3 className="home__subtitle" style={{fontSize:"30px"}}>Full Stack Developer</h3>
         <p className="home__description">
         I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations.
         </p>

@@ -19,6 +19,7 @@ import LANDING from "../../assets/landing.png"
 import WONDERSTAY from "../../assets/wonder.png"
 import CHATMINGLE from "../../assets/chatmingle.png"
 import CABLINK from "../../assets/cablink.png"
+import ADMINPANEL from "../../assets/AdminPanel.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -207,6 +208,13 @@ const fullStackProjectsData = [
 ];
 
 const miniProjectsData = [
+  {
+    name: "Admin Dashboard",
+    type: "Frontend",
+    image: ADMINPANEL,
+    link1: "https://admin-dashboard-panel-zeta.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Admin-Dashboard-Panel",
+  },
   {
     name: "Portfolio Website",
     type: "Frontend",
