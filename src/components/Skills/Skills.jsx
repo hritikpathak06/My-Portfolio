@@ -14,8 +14,11 @@ const Skills = () => {
           <div style={{ margin: "20px" }}>
             <Frontend />
           </div>
-          <div style={{ marginTop: "50px" }}>
+          <div style={{ margin: "20px" }}>
             <Backend />
+          </div>
+          <div style={{ margin: "20px" }}>
+            <Others />
           </div>
         </div>
       </section>

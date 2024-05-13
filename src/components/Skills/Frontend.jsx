@@ -6,13 +6,13 @@ let width = 30;
 const Frontend = () => {
   return (
     <>
-      <div className="frontend">
+       <div className="frontend">
         <h1>FRONTEND</h1>
         <hr />
         {frontendSkills.map((skill, index) => (
-          <div className=" frontend__skills">
+          <div className=" frontend__skills" style={{marginTop:"10px"}}>
             <h4 style={{ width: "20%" }}>{skill.skillName}</h4>
-            <div className="percentage">
+            <div className="percentage" style={{width:"100%"}}>
               <div
                 style={{
                   width: `${skill.percentage}%`,
@@ -20,7 +20,7 @@ const Frontend = () => {
                 }}
               ></div>
             </div>
-            <h4>{skill.percentage}%</h4>
+            <h4 style={{width:"10%"}}>{skill.percentage}%</h4>
           </div>
         ))}
       </div>
@@ -36,8 +36,10 @@ const getColor = (percentage) => {
     return "red";
   } else if (percentage > 20 && percentage <= 50) {
     return "yellow";
-  } else if (percentage > 50 && percentage <= 70) {
+  } else if (percentage > 50 && percentage <= 60) {
     return "yellow";
+  } else if (percentage > 60 && percentage <= 70) {
+    return "blue";
   } else {
     return "green";
   }
