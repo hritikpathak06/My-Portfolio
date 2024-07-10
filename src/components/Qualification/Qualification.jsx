@@ -105,6 +105,10 @@ const Qualification = () => {
             >
 
               <div className="qualification__data">
+                  <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
                 <div>
                   <h3 className="qualification__title">SDE Intern</h3>
                   <span className="qualification__subtitle">Mushroom World Group</span>
@@ -113,10 +117,7 @@ const Qualification = () => {
                     May,2024-Present
                   </div>
                 </div>
-                <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-                </div>
+              
               </div>
               
               <div className="qualification__data">
