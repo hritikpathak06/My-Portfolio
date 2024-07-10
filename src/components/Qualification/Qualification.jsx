@@ -103,13 +103,29 @@ const Qualification = () => {
                   : "qualification__content"
               }
             >
+
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">SDE Intern</h3>
+                  <span className="qualification__subtitle">Mushroom World Group</span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i>
+                    May,2024-Present
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+              </div>
+              
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">React Developer</h3>
                   <span className="qualification__subtitle">AwesomeSuite</span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i>
-                    Nov,2023-Present
+                    Nov,2023-Jan,2024
                   </div>
                 </div>
                 <div>
