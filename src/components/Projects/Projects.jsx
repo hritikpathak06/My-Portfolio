@@ -20,6 +20,7 @@ import WONDERSTAY from "../../assets/wonder.png"
 import CHATMINGLE from "../../assets/chatmingle.png"
 import CABLINK from "../../assets/cablink.png"
 import ADMINPANEL from "../../assets/AdminPanel.png"
+import IDEAFUSION from "../../assets/ideafusion.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -146,6 +147,13 @@ const fullStackProjectsData = [
     image: CHATMINGLE,
     link1: "https://chatmingle-7t03.onrender.com/",
     link2: "https://github.com/hritikpathak06/ChatMingle",
+  },
+  {
+    name: "Idea Fusion",
+    type: "Full Stack Project",
+    image: IDEAFUSION,
+    link1: "https://idea-fusion-ai.vercel.app/",
+    link2: "https://github.com/hritikpathak06/IdeaFusion.ai",
   },
   {
     name: "Wonder Stay",
