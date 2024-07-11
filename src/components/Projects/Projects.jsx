@@ -21,6 +21,7 @@ import CHATMINGLE from "../../assets/chatmingle.png"
 import CABLINK from "../../assets/cablink.png"
 import ADMINPANEL from "../../assets/AdminPanel.png"
 import IDEAFUSION from "../../assets/ideafusion.png"
+import CHALTE_CHALTE from "../../assets/chalte-chalte.png"
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -205,6 +206,13 @@ const fullStackProjectsData = [
     image: CHATTER,
     link1: "https://chatter-up-xa94.onrender.com/",
     link2: "https://github.com/hritikpathak06/ChatterUp",
+  },
+  {
+    name: "Chalte - Chalte",
+    type: "Music Web App",
+    image: CHALTE_CHALTE,
+    link1: "https://chalte-chalte.vercel.app/",
+    link2: "https://github.com/hritikpathak06/Chalte-Chalte",
   },
   {
     name: "CodeOpen",
